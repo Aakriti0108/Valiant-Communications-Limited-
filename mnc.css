@@ -10,5 +10,23 @@ h1{
 }
 #details
 {
-    color: aquamarine;
+    color: black;
+ 
+}
+
+#xyz{
+     
+     margin:15px 30px 30px 25px;
+     height:301px;
+     width:130px;
+     border : 2px solid red;
+     border-radius: 15px;
+     text-align: center;
+     align-items: center;
+     background-color: aliceblue;
+     font-size: larger;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+      
+
 }

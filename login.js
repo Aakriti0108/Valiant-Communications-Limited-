@@ -8,6 +8,7 @@ function login(e)
     }
     
     console.log(loginDetails)
+    window.location = "mnc.html"
    
     
     e.target.email.value="";

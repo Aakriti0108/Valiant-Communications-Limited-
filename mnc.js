@@ -12,7 +12,9 @@ function showList() {
     for(let i=0;i<response.data.results.length;i++)
     {
       let name = response.data.results[i].name;
-      list.innerHTML +=`<li>${name}</li>`
+      let url = response.data.results[i].url;
+      list.innerHTML +=`<div id="xyz">${name} ${url}</div>`
+      
     }
      
     })
